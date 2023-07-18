@@ -1,8 +1,8 @@
-body{
+body {
 
-    background-color: #fff596;
-    text-align: center;
-    font-family: Rounded M+ 1c;
+  background-color: #fff596;
+  text-align: center;
+  font-family: Rounded M+ 1c;
 
 }
 
@@ -10,11 +10,13 @@ body{
 .anim-slidein {
   animation: slideIn 1s;
 }
+
 @keyframes slideIn {
   0% {
     transform: translateX(-50px);
     opacity: 0;
   }
+
   100% {
     opacity: 1;
     transform: translateX(0px);
@@ -25,11 +27,13 @@ body{
 .revers_anim-slidein {
   animation: slideInR 1s;
 }
+
 @keyframes slideInR {
   0% {
     transform: translateX(50px);
     opacity: 0;
   }
+
   100% {
     opacity: 1;
     transform: translateX(0px);
@@ -37,35 +41,54 @@ body{
 }
 
 .font_test1 {
-    font-family: Rounded M+ 1c;
-    font-size: 200px;    /* 文字サイズ指定 */
-    color: #00a0e9;     /* 文字色指定 */
+  font-family: Rounded M+ 1c;
+  font-size: 200px;
+  /* 文字サイズ指定 */
+  color: #00a0e9;
+  /* 文字色指定 */
 }
+
 .font_test2 {
-    font-size: 200px;    /* 文字サイズ指定 */
-    color: #f39800;     /* 文字色指定 */
-    font-family: Rounded M+ 1c
+  font-size: 200px;
+  /* 文字サイズ指定 */
+  color: #f39800;
+  /* 文字色指定 */
+  font-family: Rounded M+ 1c
 }
+
 .font_test3 {
-    font-family: Rounded M+ 1c;
-    font-size: 200px;    /* 文字サイズ指定 */
-    color: #eb6ea5;     /* 文字色指定 */
+  font-family: Rounded M+ 1c;
+  font-size: 200px;
+  /* 文字サイズ指定 */
+  color: #eb6ea5;
+  /* 文字色指定 */
 }
+
 .fuchidori {
   /*color: #000;*/
   -webkit-text-stroke: 1px #FFF;
   text-stroke: 1px #FFF;
   display: inline;
 }
+
 .place1 {
-    font-family: Rounded M+ 1c;
-    font-size: 80px;    /* 文字サイズ指定 */
+  font-family: Rounded M+ 1c;
+  font-size: 80px;
+  /* 文字サイズ指定 */
+  line-height: 0px;
 }
+
 .place2 {
-    font-family: Rounded M+ 1c;
-    font-size: 60px;    /* 文字サイズ指定 */
+  font-family: Rounded M+ 1c;
+  font-size: 60px;
+  /* 文字サイズ指定 */
+  line-height: 10px;
+
 }
+
 .place3 {
-    font-family: Rounded M+ 1c;
-    font-size: 40px;    /* 文字サイズ指定 */
+  font-family: Rounded M+ 1c;
+  font-size: 40px;
+  /* 文字サイズ指定 */
+  line-height: 0px;
 }
