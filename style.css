@@ -40,7 +40,6 @@ body {
 }
 
 .font_test1 {
-  font-family: Rounded M+ 1c;
   font-size: 200px;
   /* 文字サイズ指定 */
   color: #00a0e9;
@@ -52,11 +51,10 @@ body {
   /* 文字サイズ指定 */
   color: #f39800;
   /* 文字色指定 */
-  font-family: Rounded M+ 1c
+
 }
 
 .font_test3 {
-  font-family: Rounded M+ 1c;
   font-size: 200px;
   /* 文字サイズ指定 */
   color: #eb6ea5;
@@ -71,14 +69,12 @@ body {
 }
 
 .place1 {
-  font-family: Rounded M+ 1c;
   font-size: 80px;
   /* 文字サイズ指定 */
   line-height: 0px;
 }
 
 .place2 {
-  font-family: Rounded M+ 1c;
   font-size: 60px;
   /* 文字サイズ指定 */
   line-height: 10px;
@@ -86,8 +82,13 @@ body {
 }
 
 .place3 {
-  font-family: Rounded M+ 1c;
   font-size: 40px;
   /* 文字サイズ指定 */
   line-height: 0px;
+}
+.place4 {
+  font-size: 30px;
+  /* 文字サイズ指定 */
+  line-height: 0px;
+  
 }
