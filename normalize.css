@@ -21,7 +21,7 @@ html {
  */
 
 body {
-  margin: 0;
+  margin: 5%;
 }
 
 /**
@@ -38,7 +38,7 @@ main {
  */
 
 h1 {
-  font-size: 2em;
+  font-size: 4em;
   margin: 0.67em 0;
 }
 
@@ -146,9 +146,22 @@ sup {
  */
 
 img {
+  /* 全体の画像の比率 */
   border-style: none;
+  width: 70%;
+}
+/* 比率を変えたい画像を以下に */
+#male,#female{
+  width: 40%;
+  height: auto;
+  max-width: 100px;
+  max-height: 300px;
 }
 
+#deafgon,#XIcon,#InstagramIcon{
+  width: 20%;
+  height: auto;
+}
 /* Forms
    ========================================================================== */
 
@@ -347,3 +360,14 @@ template {
 [hidden] {
   display: none;
 }
+
+/**文字のサイズをスマホ・PCで変更する
+* MaxでIpadpro（1024*1366）まで拡大、そのあとは今元に戻ってしまっているがPCでそこまで大きくする意味がないような？
+*/
+@media (max-width: 1024px) {
+  body {
+    font-size: 4vw; /* 1024px未満の場合の文字サイズ */
+  }
+}
+
+
