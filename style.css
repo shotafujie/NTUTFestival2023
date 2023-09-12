@@ -1,8 +1,9 @@
 body {
-
+  position: relative;
   background-color: #fff596;
   text-align: center;
   font-family: 'M PLUS Rounded 1c', sans-serif;
+
 }
 
 /*femaleスライドインのcss*/
@@ -12,8 +13,8 @@ body {
 
 @keyframes slideIn {
   0% {
-    transform: translateX(-50px);
     opacity: 0;
+    transform: translateX(-50px);
   }
 
   100% {
@@ -29,8 +30,8 @@ body {
 
 @keyframes slideInR {
   0% {
-    transform: translateX(50px);
     opacity: 0;
+    transform: translateX(50px);
   }
 
   100% {
@@ -39,30 +40,22 @@ body {
   }
 }
 
-.font_test1 {
-  font-size: 200px;
-  /* 文字サイズ指定 */
+
+
+/* 差分は文字色のみ */
+.ten {
   color: #00a0e9;
-  /* 文字色指定 */
 }
 
-.font_test2 {
-  font-size: 200px;
-  /* 文字サイズ指定 */
+.ryu {
   color: #f39800;
-  /* 文字色指定 */
-
 }
 
-.font_test3 {
-  font-size: 200px;
-  /* 文字サイズ指定 */
+.sai {
   color: #eb6ea5;
-  /* 文字色指定 */
 }
 
 .fuchidori {
-  /*color: #000;*/
   -webkit-text-stroke: 1px #FFF;
   text-stroke: 1px #FFF;
   display: inline;
@@ -86,9 +79,12 @@ body {
   /* 文字サイズ指定 */
   line-height: 0px;
 }
-.place4 {
-  font-size: 30px;
-  /* 文字サイズ指定 */
-  line-height: 0px;
-  
+
+
+
+video {
+  width: 100%;
+  /* 動画をレスポンシブ化 */
+  max-width: 800px;
+  /* 動画の最大幅 */
 }
