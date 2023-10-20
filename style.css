@@ -3,7 +3,6 @@ body {
   background-color: #fff596;
   text-align: center;
   font-family: 'M PLUS Rounded 1c', sans-serif;
-
 }
 
 /*femaleスライドインのcss*/
@@ -57,8 +56,11 @@ body {
 
 .fuchidori {
   -webkit-text-stroke: 1px #FFF;
-  text-stroke: 1px #FFF;
   display: inline;
+}
+
+.fontchange {
+  font-family: 'Reggae One', sans-serif;
 }
 
 .place1 {
